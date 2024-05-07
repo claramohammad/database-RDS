@@ -2,7 +2,7 @@
 
 Para iniciar a atividade, é essencial a criação de um modelo de entidade e relacionamento. Segue a baixo o modelo lógico desenvolvido:
 
-![Modelo Lógico](modelo-logico.png)
+![Modelo Lógico](/img/modelo-logico.png)
  
 ## 1. Modelo Lógico
 
@@ -35,7 +35,7 @@ Através das entidades e relacionamentos estabelecidos, o sistema está bem equi
 
  O Amazon RDS é um serviço de banco de dados relacional gerenciado que facilita a configuração, operação e escalabilidade de um banco de dados relacional na nuvem. Ele oferece uma capacidade econômica e redimensionável enquanto gerencia tarefas de administração de banco de dados. Segue abaixo uma imagem da instância criada para essa atividade:
 
- ![Aws RDS](rds.png)
+ ![Aws RDS](/img/rds.png)
 
 Algumas informações-chave sobre esse banco de dados incluem:
 
@@ -49,7 +49,7 @@ Este setup no Amazon RDS facilita o gerenciamento eficiente do banco de dados, p
 
 MySQL Workbench é uma ferramenta essencial para o gerenciamento de bancos de dados MySQL, oferecendo funcionalidades abrangentes de modelagem, desenvolvimento e administração. No contexto dessa atividade, o MySQL Workbench foi utilizado para facilitar várias etapas críticas do gerenciamento do banco de dados hospedado no Amazon RDS.
 
-![MYSQL Workbench](mysql-workbench.png)
+![MYSQL Workbench](/img/mysql-workbench.png)
 
 
 - **Criação de Tabelas**
@@ -66,6 +66,8 @@ O projeto requeria a implementação de uma estrutura de banco de dados robusta 
 
 Essas tabelas foram criadas mediante scripts SQL executados diretamente no MySQL Workbench, garantindo precisão na definição dos esquemas e eficiência no processo de implementação.
 
+![Workbench](/img/workbench.png)
+
 - **Inserção de Dados**
 
 Para testar a funcionalidade do sistema e realizar análises preliminares, dados de exemplo foram inseridos nas tabelas criadas. O MySQL Workbench facilitou esse processo, permitindo a execução rápida de scripts de inserção que popularam as tabelas com dados representativos, essenciais para as fases subsequentes de teste e validação do sistema.
@@ -74,11 +76,11 @@ Para testar a funcionalidade do sistema e realizar análises preliminares, dados
 
 A análise dos dados é crucial para a avaliação da eficácia do sistema de transporte. Utilizou-se o MySQL Workbench para executar consultas complexas, particularmente para calcular a média mensal de pacientes transportados por cada veículo. Este cálculo foi realizado através da consulta SQL abaixo, que agrupava os dados por veículo e por mês, aplicando funções de agregação para determinar as médias.
 
-![Consulta SQL](consulta-sql.png)
+![Consulta SQL](/img/consulta-sql.png)
 
 Como resultado, obtivemos a seguinte resposta:
 
-![Resultado](resultado.png)
+![Resultado](/img/resultado.png)
 
 ## 4. Conclusão
 O MySQL Workbench provou ser uma ferramenta indispensável no gerenciamento e análise do banco de dados do nosso projeto. Através de sua utilização, foi possível implementar uma estrutura de banco de dados eficiente, realizar inserções de dados de forma controlada, e executar consultas analíticas para informar decisões operacionais e estratégicas.
